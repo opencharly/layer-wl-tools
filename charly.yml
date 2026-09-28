@@ -1,7 +1,5 @@
-version: 2026.232.0520
 wl-tools:
     candy:
-        version: 2026.144.1443
         description: |
             Wayland/X command-line input, clipboard, and window tools
             Installs the wlroots input/clipboard/window toolset — wtype,
