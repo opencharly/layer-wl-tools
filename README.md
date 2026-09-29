@@ -23,7 +23,9 @@ use `wl-screenshot-grim` (sway) or `wl-screenshot-pixelflux` (selkies).
 ## How to use it
 
 Compose the layer by pinning this repo in a box's `candy:` list — typically
-transitively through the `sway-desktop` or `selkies-desktop` metalayer:
+transitively through the `sway-desktop` or `selkies-desktop` metalayer. The
+named entity is a box: its `candy:` value is the box BODY (holding `base:` and
+the nested composition `candy:` list):
 
 ```yaml
 my-desktop-box:
